@@ -45,7 +45,7 @@
 
 .wrapper{
 	width:90%;
-	max-width:2000px;
+	max-width:1000px;
 	margin:auto;
 	overflow:hidden;
 }
@@ -124,3 +124,12 @@ header {
 		line-height:50px; 
 	}
 } 
+
+div.avatar {
+    height: 200px;
+    width: 200px;    
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+	background-size: 100% auto;}
+	

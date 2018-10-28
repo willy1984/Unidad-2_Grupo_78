@@ -3,36 +3,83 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="header.js"></script>
-    <title>Autores</title>
+    <title>Curso HTML5</title>
 </head>
 
 <body>
-    <header>
-        
-            
-            <nav>
-                <div class="logo">Nombre del curso</div>
-                <a href="index.html">Inicio</a>
-                <a href="#">Lecturas</a>
-                <a href="#">Multimedia</a>
-                <a href="#">Actividades</a>
-                <a href="#">Autores</a>
-            </nav>
-        
-    </header>
-    <h1 align="center">Autores o participantes de creación</h1>
-    <div class="circulo">
-        <img src="img/Wil.jpg" class="imagen"><br>
-
-        <tr>Nombre: Wil Faver Garcia</tr><br>
-        <tr>COD: 14.675.817</tr><br>
-        <tr>Programa: Ingenieria de sistemas</tr><br>
-        <tr>Email: wilfa4243@hotmail.com</tr><br>
-        <tr>Skype: wilfavergarcia</tr><br>
+    <div class="social-bar">
+        <a href="https://www.facebook.com/unad.florencia" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/universidadunad?lang=es" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/user/universidadunad" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://informacion.unad.edu.co/correo" class="icon icon-mail4" target="_blank"></a>
     </div>
+    <header>
+        <div class="social-bar">
+            <a href="https://www.facebook.com/unad.florencia" class="icon icon-facebook" target="_blank"></a>
+            <a href="https://twitter.com/universidadunad?lang=es" class="icon icon-twitter" target="_blank"></a>
+            <a href="https://www.youtube.com/user/universidadunad" class="icon icon-youtube" target="_blank"></a>
+            <a href="https://informacion.unad.edu.co/correo" class="icon icon-mail4" target="_blank"></a>
+        </div>
+        <nav class="nav">
+            <div class="wrapper">
+                <ul class="menu">
+                    <div class="logo">Curso HTML</div>
+                    <nav class="nav2">
+                        <ul class="menu2">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="#">Lecturas</a>
+                                <ul class="sub-menu">
+                                    <li><a href="Introduccion.html">Introducción</a></li>
+                                    <li><a href="Html5.html">HTML5</a></li>
+                                    <li><a href="CSS3.html">CSS3</a></li>
+                                    <li><a href="GitHib.html">GitHub</a></li>
+                                    <li><a href="Lenguajes_programacion.html">Lenguajes de programación</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Multimedia</a></li>
+                            <li><a href="#">Actividades</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">sub-menu</a></li>
+                                    <li><a href="#">sub-menu</a></li>
+                                    <li><a href="#">sub-menu</a></li>
+                                    <li><a href="#">sub-menu</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Autores</a></li>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="contenido">
+        <center>
+            <div class="avatar" style="background-image: url(img/Carlos.jpeg)"></div>
+            <h3>Nombre: Carlos Mauricio Ramírez Ordóñez</h3>
+            <h3>Codigo: 1117548687</h3>
+            <h3>Programa: Ingenieria de sistemas</h3>
+            <h3>Correo: Carlos_mauricio1197@hotmail.com</h3>
+            <h3>Skype: +573132538733</h3>
+        </center>
+        <center>
+            <div class="avatar" style="background-image: url(img/Wil.jpg)"></div>
+            <h3>Nombre: Wil Faver Garcia</h3>
+            <h3>Codigo: 14675817</h3>
+            <h3>Programa: Ingenieria de sistemas</h3>
+            <h3>Correo: wilfa4243@hotmail.com</h3>
+            <h3>Skype: wilfavergarcia</h3>
+        </center>
+        <center>
+            <div class="avatar" style="background-image: url(img/Leandro.jpeg)"></div>
+            <h3>Nombre: Leandro Patiño Guzman</h3>
+            <h3>Codigo: 1117542402 </h3>
+            <h3>Programa: Ingenieria de sistemas</h3>
+            <h3>Correo:  leanpagu1996@gmail.com</h3>
+        </center>
+    </section>
 </body>
 
 </html>
